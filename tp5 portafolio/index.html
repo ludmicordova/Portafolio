@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="icon" type="image/jpg" href="images/icono.png">
+    
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Ludmila Córdova</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#inicio">Inició</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#yo">Sobre mí</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Portfolio
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#Conociendo_a_Arctic_Monckeys">Conociendo a Arctic Monckeys</a></li>
+              <li><a class="dropdown-item" href="#juego">Cuida a Huevon</a></li>
+              <li><a class="dropdown-item" href="#Tablas">Tablas</a></li>
+              <li><a class="dropdown-item" href="#coffe">Registrate para Coffe Hot</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner" id="inicio">
+    <div class="carousel-item active">
+      <img src="images/inicio.png" class="d-block w-100" width="">
+    </div>
+    <div class="carousel-item">
+      <img src="images/linda.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/espada.jpeg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="info">
+<h2>Lud Córdova</h2>
+<h3>Gym rat</h3>
+</div>
+<h3 class="h3">&#9820;Sobre mí &#9820;</h3>
+<div id="yo" class="info">
+  <p>Me llamo Ludmila, tengo 17 años, soy de La Plata y estoy en el ultimo año escolar; amo pasar tiempo en el gym o leyendo, tambien me gusta escuchar música,
+   mis artistas fav son Arctic Monckeys y Taylor Swift pero escucho variado, todo depende de mi estabbilidad emocional ahre y amo comer pastas y dormir y 
+  en un futuro me gustaria estudiar licenciatura de informatica o de letras, todavia estoy viendo eso *crisis*.</p>
+</div>
+<h3 class="h3" style="margin-top: 5%;"> &#9823; Portfolio &#9823;</h3>
+<div class="row row-cols-1 row-cols-md-2 g-4" id="card">
+  <div class="col" id="Conociendo_a_Arctic_Monckeys">
+    <div class="card">
+      <img src="images/arctic.png" class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Conociendo a Arctic Monckeys</h5>
+        <p class="card-text">Este es el Trabajo practico numero 1 y es información acerca de mi banda favorita. <button class="button-55" role="button"><a href="https://arctic-monckeys-info.ludcordova.repl.co/">Ir a pagina</a></button></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" id="juego">
+      <img src="images/huevo.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cuidando a Huevon</h5>
+        <p class="card-text">Este es el trabajo numero 2 y en un juego acerca de cuidar a un huevo y que salga vivo de esa. <button class="button-55" role="button"><a href="https://juego-3.ludcordova.repl.co/">Ir a pagina</a></button></p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card" id="Tablas">
+      <img src="images/tablas.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Tablas</h5>
+        <p class="card-text">Este es el trabajo numero 3 y son tablas que tuvimos q hacer o imitar en la clase de Lucho. <button class="button-55" role="button"><a href="https://tablas.ludcordova.repl.co/">Ir a pagina</a></button></p>
+      </div>
+    </div>
+  </div>
+  <div class="col" id="coffe">
+    <div class="card">
+      <img src="images/form.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Registrate para Coffe Hot</h5>
+        <p class="card-text">Es el trabajo nuero 4 y es un formulario q tenes que llenar para unirte a la cafeteria Coffe hot. <button class="button-55" role="button"><a href="https://coffehot.ludcordova.repl.co/">Ir a pagina</a></button></p>
+      </div>
+    </div>
+  </div>
+</div>
+<h3 class="h3" id="contacto">&#9822;Contactame!&#9822;</h3>
+<div class="container">
+  <form target="_blank" action="https://formsubmit.co/ludmicordova@gmail.com" method="POST" class="row g-3">
+  <div class="col-6">
+     <label for="textinput" class="form-label">Nombre</label>
+    <input type="text" name="Nom" class="form-control" id="textinput" placeholder="Escribi tu nombre" required>
+  </div>
+
+  <div class="col-6">
+    <label for="inputtext" class="form-label">Apellido</label>
+   <input type="text" name="Ape" class="form-control" id="inputtext" placeholder="Apellido" required>
+ </div>
+
+ <div class="col-12">
+  <label for="emailinput" class="form-label">Email</label>
+  <input type="email" name="Email" class="form-control" id="emailinput" placeholder="Email" required>
+ </div>
+
+ <div class="col-6">
+  <label for="citytext" class="form-label">Ciudad</label>
+  <input type="text" name="Ciudad" class="form-control" id="citytext" placeholder="Ciudad" required>
+ </div>
+
+ <div class="col-6">
+  <label for="paistext" class="form-label">País</label>
+  <input type="text" name="Pais" class="form-control" id="paistext" name="pais" placeholder= "País" required>
+ </div>
+ 
+ <div class="col-12">
+  <label for="telinput" class="form-label">Telefono</label>
+  <input type="tel" name="telefono" class="form-control" id="telinput"  placeholder="Numero de telefono" required>
+  </div>
+
+  <div class="col-5">
+    <label for="nacimientoinput" class="form-label"> Fecha de nacimiento</label>
+    <input type="text" name="nacimiento" class="form-control" id="nacimientoinput" placeholder="Fecha de nacimiento"> 
+  </div>
+  
+  <div class="col-5">
+    <label for="inputnumber" class="form-label">Edad:</label>
+     <input type="number" name="edad" class="form-control"  id="inputnumber" placeholder="edad">
+  </div>
+
+<div class="col-2">
+<label for="inputgene" class="form-label">Genero:</label>
+<select name="Genero" class="form-select"  class="form-control" id="inputgene" aria-label="Disabled select example">
+  <option selected>Genero</option>
+  <option value="gene" na>Femenino</option>
+  <option value="gene">Masculino</option>
+  <option value="gene">Otros</option>
+</select>
+</div>
+ 
+<div class="col-12">
+<button type="submit" class="btn btn-secondary">Enviar</button>
+</div>
+</form>
+</div>
+
+
+<footer>
+<div class="container">
+  <div class="row">
+   <div class="col-xl-6" id="redes">
+    <h2 > &mdash; Mis redes &mdash; </h2>
+    <a href="https://instagram.com/ludmi.cordova?igshid=Y2IzZGU1MTFhOQ=="><i class="bi bi-instagram"></i></a>
+    <a href="https://twitter.com/whoislud_?t=3LXg2UdVeB52NupCQCES1g&s=08"><i class="bi bi-twitter"></i></a> 
+    <a href="http://tiktok.com/@milamilanesa01"><i class="bi bi-tiktok"></i></a>
+   </div>
+   <div class="col-xl-6" id="redes">
+      <h2> &mdash; Contac Info &mdash; </h2>
+      <div>
+      <i class="bi bi-geo-alt-fill"></i><h6>Los Hornos, La Plata</h6>
+      <i class="bi bi-envelope-at-fill"></i><h6>ludmicordova@gmail.com</h6>
+      <i class="bi bi-telephone-fill"></i><h6>221-504-26-16</h6>
+      </div>
+   </div>
+ </div>
+<div>
+
+  <div class="text-center p-3" style="background-color:rgba(128, 128, 128, 0.13)">
+    Copyright © 2023
+    
+  </div>
+ 
+</footer>
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+      
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
