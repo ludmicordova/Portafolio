@@ -1,0 +1,72 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+ body{
+    background: #283048;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ }
+ 
+h1{
+    font-family: 'Press Start 2P', cursive;
+    color: brown;
+    text-align: center;
+}
+h3{
+    color:black;
+    font-family: 'VT323', monospace;
+    text-align: center;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.botones{
+    margin-top: 5%;
+    margin-left: 42%;
+    padding-bottom: 4%;
+    
+}
+
+
+h4{
+    border: 5px ridge rgb(121, 19, 19);
+    font-family: 'VT323', monospace;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+#shot{
+    
+    text-align: center;
+    border: 5px ridge rgb(245, 242, 70);
+    text-align: center;
+    font-family: 'VT323', monospace;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+#boton-shot{
+    margin-top: 5%;
+    margin-left: 42%;
+    margin-bottom: 4%;
+    color: whitesmoke;
+    
+}
+h6{
+    font-family: 'VT323', monospace;
+    margin-left: 2%;
+}
+h5{
+    color: red;
+    margin-left: 2%;
+    font-family: 'VT323', monospace;
+    
+}
